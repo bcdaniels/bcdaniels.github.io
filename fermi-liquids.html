@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Fermi Liquids</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="/theme/css/main.css" type="text/css" />
+        
+        <!-- BCD for mobile devices -->
+        <meta name="viewport" content="width=600">
+        
+        <!-- 5.4.2019 BCD redirect http to https (avoid font problems in some browsers) -->
+        <script language="JavaScript">
+            var loc = window.location.href+'';
+            if (loc.indexOf('http://www.')==0){
+                window.location.href = loc.replace('http://www.','https://www.');
+            }
+        </script>
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="/css/ie.css"/>
+                <script src="/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="/css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="">Bryan Daniels </a></h1>
+                <nav>
+                    <a href="/./">What I Do</a>&nbsp;
+                <a href="https://www.public.asu.edu/~bdaniel6/cll/pages/publications.html">Publications</a>&nbsp;
+                    <a href="/category/other.html">Other</a>&nbsp;
+                    <a href="/category/what-ive-been-thinking-about.html">What I've Been Thinking About</a>&nbsp;
+                </nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="fermi-liquids.html" rel="bookmark"
+           title="Permalink to Fermi Liquids">Fermi Liquids</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2008-09-01T00:00:00-07:00">
+                September 2008
+        </abbr>
+</footer><!-- /.post-info -->      <p>Why do metals behave like metals?  Why are they good conductors of both electricity and heat?  The answer to these questions has been known for a long time: metals have free electrons that can easily move through the material, carrying both electrical charge and thermal energy.  A more puzzling fact has been that these electrons can be treated as if they move independently of each other -- under this assumption, the theory is considerably simpler, and yet it works impressively well.  But why?  Why can we treat conduction electrons as a noninteracting "electron gas," especially when we know that the electrons (like any other charged particles) should repel each other with a powerful Coulomb force?</p>
+<p>This mystery was also eventually solved (creating a theory now known as Fermi liquids), and can be explained nicely in terms of <i>renormalization group</i> ideas.  In Jim Sethna's Statistical Physics class, a group of us (Mark Transtrum, Johannes Lischner, Duane Loh, and I) took on the task of explaining these ideas to the rest of the class.  We delved into imaginary time path integrals and Grassmann numbers, and eventually distilled a whirlwind (but hopefully coherent) summary.</p>
+<p>The basic idea is that electrons do feel each other, but they move in collective excitations called 'quasiparticles' that don't interact as strongly.  And even if these quasiparticles feel each other (have nonzero coupling), the renormalization group tells you that the 'effective' coupling gets weaker and weaker as you look at quasiparticles with lower and lower energy.  This means that when you put a small (low energy) electric field across the metal, you get low energy nearly-noninteracting excitations (quasiparticles) that carry current.  This is why the traditional electron gas model works so well.</p>
+<p>Not only that, but this theory predicts how the electron gas theory fails.  As one example, quasiparticles have a different effective mass than electrons, and this holds even as we zoom in on the low energy quasiparticles.  More interestingly, if the quasiparticles attract each other in a specific way (which can happen, for example, if the quasiparticles interact with vibrations in the metal), the effective strength of this attraction <i>grows</i> as you look at lower and lower energies.  The low energy behavior of the metal is no longer described as an electron gas, and we instead 'flow to a different fixed point' and get behavior like superconductivity, where quasiparticles pair up and flow without resistance through the metal.  Cool!</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+        </section><!-- /#extras -->
+
+        <!--<footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                     Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>. Theme is using <a href="http://github.com/getpelican/pelican-themes" target="_blank">cebong</a>. -->
+                </address><!-- /#about -->
+
+        </footer><!-- /#contentinfo -->
+
+<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101172850);</script>
+<script async src="//static.getclicky.com/js"></script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101172850ns.gif" /></p></noscript></body>
+</html>
